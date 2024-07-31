@@ -13,11 +13,11 @@
         <ul>
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="about.php">ABOUT</a></li>
-                <li><a href="services.php">CONNECT</a></li>
-                <li><a href="events.php">GROW</a></li>
-                <li><a href="events.php">SERVE</a></li>
-                <li><a href="events.php">NETWORKS</a></li>
-                <li><a href="events.php">MISSIONS</a></li>
+                <li><a href="connect.php">CONNECT</a></li>
+                <li><a href="grow.php">GROW</a></li>
+                <li><a href="serve.php">SERVE</a></li>
+                <li><a href="networks.php">NETWORKS</a></li>
+                <li><a href="missions.php">MISSIONS</a></li>
                 <li><a href="events.php">BLOG</a></li>
                 <li><a href="events.php">SERMONS</a></li>
                 <li><a href="events.php">MUSIC</a></li>
