@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A.C.K KIHUNGURO PARISH</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    
     <header>
         <nav>
-            <ul>
+        <ul>
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="about.php">ABOUT</a></li>
                 <li><a href="services.php">CONNECT</a></li>
@@ -22,12 +22,27 @@
                 <li><a href="events.php">SERMONS</a></li>
                 <li><a href="events.php">MUSIC</a></li>
                 <li><a href="events.php">GIVE</a></li>
-                <li><a href="contact.php">LOGIN/REGISTER</a></li>
            </ul>
         </nav>
     </header>
     <main>
-           <h1>Welcome to A.C.K KIHUNGURO PARISH</h1>
+        <section>
+    <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
+           <h1>A.C.K Kihunguro Church</h1>
+           <h2>Welcome Home</h2>
+           </section> <br><br><br><br>
+
+           <section class="service-times">
+            <h3>SERVICE TIMES</h3>
+            <div class="service-time">
+                <i class="fas fa-clock"></i>
+                <p>8:30am - 10:15am</p>
+            </div>
+            <div class="service-time">
+                <i class="fas fa-clock"></i>
+                <p>10:30am - 12:30pm</p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
