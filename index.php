@@ -20,8 +20,8 @@
                 <li><a href="missions.php">MISSIONS</a></li>
                 <li><a href="blog.php">BLOG</a></li>
                 <li><a href="sermons.php">SERMONS</a></li>
-                <li><a href="events.php">MUSIC</a></li>
-                <li><a href="events.php">GIVE</a></li>
+                <li><a href="music.php">MUSIC</a></li>
+                <li><a href="give.php">GIVE</a></li>
            </ul>
         </nav>
     </header>
