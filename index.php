@@ -18,7 +18,7 @@
                 <li><a href="serve.php">SERVE</a></li>
                 <li><a href="networks.php">NETWORKS</a></li>
                 <li><a href="missions.php">MISSIONS</a></li>
-                <li><a href="events.php">BLOG</a></li>
+                <li><a href="blog.php">BLOG</a></li>
                 <li><a href="events.php">SERMONS</a></li>
                 <li><a href="events.php">MUSIC</a></li>
                 <li><a href="events.php">GIVE</a></li>
