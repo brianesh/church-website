@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to A.C.K KIHUNGURO PARISH</h1>
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -27,7 +26,7 @@
         </nav>
     </header>
     <main>
-        <!-- Main content here -->
+           <h1>Welcome to A.C.K KIHUNGURO PARISH</h1>
     </main>
     <footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
