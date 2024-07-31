@@ -10,7 +10,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="about.php">ABOUT</a></li>
                 <li><a href="services.php">CONNECT</a></li>
                 <li><a href="events.php">GROW</a></li>
@@ -21,7 +21,7 @@
                 <li><a href="events.php">SERMONS</a></li>
                 <li><a href="events.php">MUSIC</a></li>
                 <li><a href="events.php">GIVE</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="contact.php">LOGIN/REGISTER</a></li>
            </ul>
         </nav>
     </header>
