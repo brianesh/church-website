@@ -26,21 +26,24 @@
         </nav>
     </header>
     <main>
+    <div>
         <section>
     <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
            <h1>A.C.K Kihunguro Church</h1>
            <h2>Welcome Home</h2>
-           </section> <br><br><br><br>
-
+           </section> 
+    </div>
            <section class="service-times">
-            <h3>SERVICE TIMES</h3>
-            <div class="service-time">
-                <i class="fas fa-clock"></i>
-                <p>8:30am - 10:15am</p>
-            </div>
-            <div class="service-time">
-                <i class="fas fa-clock"></i>
-                <p>10:30am - 12:30pm</p>
+            <h3>SERVICE TIMES</h3><br>
+            <div class="service-time-container">
+                <div class="service-time">
+                    <i class="fas fa-clock"></i>
+                    <p>8:30am - 10:15am</p>
+                </div>
+                <div class="service-time">
+                    <i class="fas fa-clock"></i>
+                    <p>10:30am - 12:30pm</p>
+                </div>
             </div>
         </section>
     </main>

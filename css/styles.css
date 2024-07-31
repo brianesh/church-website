@@ -53,6 +53,35 @@ main {
     width: auto;
 }
 
+.service-times {
+    display: flex;
+    flex-direction: column; /* Stack the service-time containers vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px; /* Add some spacing between sections */
+}
+
+.service-time-container {
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between the columns */
+}
+
+.service-time {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+}
+
+.service-time i {
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.service-times h3 {
+    margin-bottom: 10px; /* Add some spacing below the heading */
+    text-decoration: underline; /* Underline the heading */
+}
 footer {
     color: white;
     text-align: center;
