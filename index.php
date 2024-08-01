@@ -83,15 +83,23 @@
         <p>Read our latest blog posts and updates...</p>
     </section>
 
-    <section id="sermons">
-        <h2>Sermons</h2>
-        <p>Listen to our latest sermons and teachings...</p>
-    </section>
-
-    <section id="music">
-        <h2>Music</h2>
-        <p>Enjoy our worship music and choir performances...</p>
-    </section>
+    <section id="sermons" style="background-color: #f5f5f5; padding: 20px;">
+    <h2>Sermons</h2>
+    <p>Listen to our latest sermons and teachings...</p>
+    <div class="sermon-videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+    <section id="music" style="background-color: #898989; padding: 20px;">
+    <h2>Music</h2>
+    <p>Enjoy our worship music and choir performances...</p>
+    <div class="youtube-videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
 
     <section id="give">
         <h2>Give</h2>
