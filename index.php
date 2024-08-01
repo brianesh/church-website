@@ -104,33 +104,44 @@
 <section id="give" style="background-color: #e0f7fa; padding: 20px;">
     <h2>Give</h2>
     <p>Support our church by giving online...</p>
+
     <form action="process_donation.php" method="post">
-        <h3>Pay via M-Pesa</h3>
-        <label for="amount">Amount:</label>
-        <input type="number" id="amount" name="amount" required min="1" placeholder="Enter amount">
+            <h3>Pay via M-Pesa</h3>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required min="1" placeholder="Enter amount">
 
-        <fieldset>
-            <legend>Donation Type:</legend>
-            <label>
-                <input type="radio" name="donation_type" value="tithe" required>
-                Tithe
-            </label>
-            <label>
-                <input type="radio" name="donation_type" value="offering">
-                Offering
-            </label>
-            <label>
-                <input type="radio" name="donation_type" value="thanksgiving">
-                Thanksgiving
-            </label>
-            <label>
-                <input type="radio" name="donation_type" value="development">
-                Development
-            </label>
-        </fieldset>
+            <fieldset>
+                <legend>Donation Type:</legend>
+                <label>
+                    <input type="radio" name="donation_type" value="tithe" required>
+                    Tithe
+                </label>
+                <label>
+                    <input type="radio" name="donation_type" value="offering">
+                    Offering
+                </label>
+                <label>
+                    <input type="radio" name="donation_type" value="thanksgiving">
+                    Thanksgiving
+                </label>
+                <label>
+                    <input type="radio" name="donation_type" value="development">
+                    Development
+                </label>
+            </fieldset>
 
-        <button type="submit">Donate via M-Pesa</button>
-    </form>
+            
+    <label for="donor_name">Name:</label>
+    <input type="text" name="donor_name" id="donor_name" required><br>
+
+    <label for="donor_email">Email (optional):</label>
+    <input type="email" name="donor_email" id="donor_email"><br>
+
+    <label for="donor_phone_number">Phone Number (optional):</label>
+    <input type="text" name="donor_phone_number" id="donor_phone_number"><br>
+    <button type="submit">Donate via M-Pesa</button>
+        </form>
+
 </section>
 
     
