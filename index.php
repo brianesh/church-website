@@ -101,10 +101,38 @@
     </div>
 </section>
 
-    <section id="give">
-        <h2>Give</h2>
-        <p>Support our church by giving online...</p>
-    </section>
+<section id="give" style="background-color: #e0f7fa; padding: 20px;">
+    <h2>Give</h2>
+    <p>Support our church by giving online...</p>
+    <form action="process_donation.php" method="post">
+        <h3>Pay via M-Pesa</h3>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required min="1" placeholder="Enter amount">
+
+        <fieldset>
+            <legend>Donation Type:</legend>
+            <label>
+                <input type="radio" name="donation_type" value="tithe" required>
+                Tithe
+            </label>
+            <label>
+                <input type="radio" name="donation_type" value="offering">
+                Offering
+            </label>
+            <label>
+                <input type="radio" name="donation_type" value="thanksgiving">
+                Thanksgiving
+            </label>
+            <label>
+                <input type="radio" name="donation_type" value="development">
+                Development
+            </label>
+        </fieldset>
+
+        <button type="submit">Donate via M-Pesa</button>
+    </form>
+</section>
+
     
     <button id="back-to-top"><i class="fas fa-chevron-up"></i><br>TOP</button>
     <script src="js/script.js"></script>
