@@ -27,7 +27,7 @@
     </header>
     <main>
     <div>
-        <section class="index">
+        <section id="index">
     <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
            <h1>A.C.K Kihunguro Church</h1>
            <h2>Welcome Home</h2>
@@ -100,5 +100,6 @@
     <footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
