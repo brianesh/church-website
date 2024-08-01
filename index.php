@@ -27,13 +27,13 @@
     </header>
     <main>
     <div>
-        <section id="index">
+        <section id="index" style="background-image: url('includes/background.jpeg');">
     <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
            <h1>A.C.K Kihunguro Church</h1>
            <h2>Welcome Home</h2>
            </section> <br><br><br>
     </div>
-           <section class="service-times">
+           <section class="service-times" style="background-image: url('includes/bg1.jpeg');">
             <h3>SERVICE TIMES</h3><br>
             <div class="service-time-container">
                 <div class="service-time">
@@ -63,7 +63,7 @@
         <p>Join our Bible study groups and grow in your faith...</p>
     </section>
 
-    <section id="serve">
+    <section id="serve" style="background-image: url('includes/bg1.jpeg');">
         <h2>Serve</h2>
         <p>Find out how you can serve in our community and beyond...</p>
     </section>
