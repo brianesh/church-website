@@ -31,7 +31,7 @@
     <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
            <h1>A.C.K Kihunguro Church</h1>
            <h2>Welcome Home</h2>
-           </section> 
+           </section> <br><br><br>
     </div>
            <section class="service-times">
             <h3>SERVICE TIMES</h3><br>
@@ -97,9 +97,11 @@
         <h2>Give</h2>
         <p>Support our church by giving online...</p>
     </section>
-    <footer>
+    
+    <button id="back-to-top"><i class="fas fa-chevron-up"></i><br>TOP</button>
+    <script src="js/script.js"></script>
+</body>
+<footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
-</body>
 </html>
