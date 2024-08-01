@@ -11,17 +11,17 @@
     <header>
         <nav>
         <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="about.php">ABOUT</a></li>
-                <li><a href="connect.php">CONNECT</a></li>
-                <li><a href="grow.php">GROW</a></li>
-                <li><a href="serve.php">SERVE</a></li>
-                <li><a href="networks.php">NETWORKS</a></li>
-                <li><a href="missions.php">MISSIONS</a></li>
-                <li><a href="blog.php">BLOG</a></li>
-                <li><a href="sermons.php">SERMONS</a></li>
-                <li><a href="music.php">MUSIC</a></li>
-                <li><a href="give.php">GIVE</a></li>
+                <li><a href="">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#connect">CONNECT</a></li>
+                <li><a href="#grow">GROW</a></li>
+                <li><a href="#serve">SERVE</a></li>
+                <li><a href="#networks">NETWORKS</a></li>
+                <li><a href="#missions">MISSIONS</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#sermons">SERMONS</a></li>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="#give">GIVE</a></li>
            </ul>
         </nav>
     </header>
