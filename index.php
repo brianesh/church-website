@@ -11,7 +11,7 @@
     <header>
         <nav>
         <ul>
-                <li><a href="">HOME</a></li>
+                <li><a href="#index">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#connect">CONNECT</a></li>
                 <li><a href="#grow">GROW</a></li>
@@ -27,7 +27,7 @@
     </header>
     <main>
     <div>
-        <section>
+        <section class="index">
     <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
            <h1>A.C.K Kihunguro Church</h1>
            <h2>Welcome Home</h2>
@@ -46,7 +46,57 @@
                 </div>
             </div>
         </section>
+
     </main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to A.C.K Kihunguro Parish. We are a community of believers...</p>
+    </section>
+    
+    <section id="connect">
+        <h2>Connect</h2>
+        <p>Connect with our community through various programs and events...</p>
+    </section>
+
+    <section id="grow">
+        <h2>Grow</h2>
+        <p>Join our Bible study groups and grow in your faith...</p>
+    </section>
+
+    <section id="serve">
+        <h2>Serve</h2>
+        <p>Find out how you can serve in our community and beyond...</p>
+    </section>
+
+    <section id="networks">
+        <h2>Networks</h2>
+        <p>Learn about our different networks and how you can get involved...</p>
+    </section>
+
+    <section id="missions">
+        <h2>Missions</h2>
+        <p>Discover our missions and outreach programs...</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Read our latest blog posts and updates...</p>
+    </section>
+
+    <section id="sermons">
+        <h2>Sermons</h2>
+        <p>Listen to our latest sermons and teachings...</p>
+    </section>
+
+    <section id="music">
+        <h2>Music</h2>
+        <p>Enjoy our worship music and choir performances...</p>
+    </section>
+
+    <section id="give">
+        <h2>Give</h2>
+        <p>Support our church by giving online...</p>
+    </section>
     <footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
     </footer>
