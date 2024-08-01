@@ -83,7 +83,7 @@
         <p>Read our latest blog posts and updates...</p>
     </section>
 
-    <section id="sermons" style="background-color: #f5f5f5; padding: 20px;">
+    <section id="sermons" style="background-color: green; padding: 20px;">
     <h2>Sermons</h2>
     <p>Listen to our latest sermons and teachings...</p>
     <div class="sermon-videos">
