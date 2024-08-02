@@ -1,9 +1,13 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Database configuration
 $host = 'localhost'; // or your database host
 $db = 'church'; // your database name
 $user = 'root'; // your database user
-$pass = ''; // your database password
+$pass = 'password'; // your database password
 
 // Create a connection to the database
 $mysqli = new mysqli($host, $user, $pass, $db);

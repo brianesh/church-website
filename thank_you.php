@@ -12,7 +12,7 @@
     </header>
     <main>
         <p>Your donation has been received. Thank you for your support!</p>
-        <a href="index.html">Return to Home</a>
+        <a href="index.php">Return to Home</a>
     </main>
     <footer>
         <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
