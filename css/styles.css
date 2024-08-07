@@ -1,104 +1,136 @@
+/* Basic resets and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    
+    line-height: 1.6;
 }
 
+/* Header and Navigation */
 header {
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 10px 0;
-    text-align: center;
-    padding-left: 400px;
-    padding-top: 20px;
-    background-color: cadetblue;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 6px;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s, text-decoration 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffcc00; /* Change this to your desired hover color */
-    text-decoration: underline;
-}
-
-main {
+header nav ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin-top: 300px;
-    background-size: cover;
+    justify-content: center;
+    list-style: none;
 }
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .logo {
-    position: absolute;
-    top: 10px;
-    left: 100px;
-    height: 120px; /* Adjust the height to fit your design */
-    width: auto;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f4f4f4;
 }
 
 .service-times {
-    display: flex;
-    flex-direction: column; /* Stack the service-time containers vertically */
-    align-items: center; /* Center items horizontally */
-    margin-top: 20px; /* Add some spacing between sections */
+    background: #e0f7fa;
 }
 
 .service-time-container {
-    display: flex; /* Align items in a row */
-    justify-content: center; /* Center items horizontally */
-    gap: 20px; /* Space between the columns */
+    display: flex;
+    justify-content: space-around;
 }
 
 .service-time {
     display: flex;
-    flex-direction: column; /* Stack icon and text vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center;
-}
-
-.service-time i {
-    font-size: 24px; /* Adjust icon size as needed */
-    margin-bottom: 5px; /* Space between icon and text */
-}
-
-.service-times h3 {
-    margin-bottom: 10px; /* Add some spacing below the heading */
-    text-decoration: underline; /* Underline the heading */
-}
-footer {
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position:relative;
-    width: 100%;
-    bottom: 0;
-}
-
-section {
-    padding: 100px 20px;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Video sections */
+.sermon-videos, .youtube-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
     text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+footer .social-links {
+    margin: 10px 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ddd;
+}
+
+/* Back to top button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background: #555;
 }
