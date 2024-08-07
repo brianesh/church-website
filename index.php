@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A.C.K KIHUNGURO PARISH</title>
+    <title>A.C.K Kihunguro Parish</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -27,17 +27,16 @@
     </header>
 
     <main>
-        <div>
-            <section id="index" style="background-image: url('includes/background.jpeg');">
+        <section id="index" class="hero" style="background-image: url('includes/background.jpeg');">
+            <div class="hero-content">
                 <img src="includes/bg2.jpeg" alt="Church Logo" class="logo">
                 <h1>A.C.K Kihunguro Church</h1>
                 <h2>Welcome Home</h2>
-            </section>
-            <br><br><br>
-        </div>
+            </div>
+        </section>
 
-        <section class="service-times" style="background-image: url('includes/bg1.jpeg');">
-            <h3>SERVICE TIMES</h3><br>
+        <section class="service-times">
+            <h3>SERVICE TIMES</h3>
             <div class="service-time-container">
                 <div class="service-time">
                     <i class="fas fa-clock"></i>
@@ -65,7 +64,7 @@
             <p>Join our Bible study groups and grow in your faith...</p>
         </section>
 
-        <section id="serve" style="background-image: url('includes/bg1.jpeg');">
+        <section id="serve">
             <h2>Serve</h2>
             <p>Find out how you can serve in our community and beyond...</p>
         </section>
@@ -85,7 +84,7 @@
             <p>Read our latest blog posts and updates...</p>
         </section>
 
-        <section id="sermons" style="background-color: green; padding: 20px;">
+        <section id="sermons">
             <h2>Sermons</h2>
             <p>Listen to our latest sermons and teachings...</p>
             <div class="sermon-videos">
@@ -95,7 +94,7 @@
             </div>
         </section>
 
-        <section id="music" style="background-color: #898989; padding: 20px;">
+        <section id="music">
             <h2>Music</h2>
             <p>Enjoy our worship music and choir performances...</p>
             <div class="youtube-videos">
@@ -104,7 +103,7 @@
             </div>
         </section>
 
-        <section id="give" style="background-color: #e0f7fa; padding: 20px;">
+        <section id="give">
             <h2>Give</h2>
             <p>Support our church by giving online...</p>
 
@@ -148,7 +147,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 A.C.K KIHUNGURO PARISH. All rights reserved.</p>
+        <p>&copy; 2024 A.C.K Kihunguro Parish. All rights reserved.</p>
         <div class="social-links">
             <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
