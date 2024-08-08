@@ -99,37 +99,37 @@
             <p>Welcome to A.C.K Kihunguro Parish. We are a community of believers committed to growing in faith, serving others, and making a difference in the world...</p>
         </section>
 
-        <section id="connect">
+        <section id="connect" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Connect</h2>
             <p>Connect with our community through various programs and events. Join us for fellowship, support groups, and more...</p>
         </section>
 
-        <section id="grow">
+        <section id="grow" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Grow</h2>
             <p>Join our Bible study groups, attend workshops, and participate in activities designed to help you grow in your faith...</p>
         </section>
 
-        <section id="serve">
+        <section id="serve" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Serve</h2>
             <p>Discover opportunities to serve within our community and beyond. We offer various programs where you can contribute your skills and time...</p>
         </section>
 
-        <section id="networks">
+        <section id="networks" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Networks</h2>
             <p>Learn about our different networks and how you can become involved in various outreach and support initiatives...</p>
         </section>
 
-        <section id="missions">
+        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Missions</h2>
             <p>Explore our mission efforts and outreach programs designed to make a positive impact locally and globally...</p>
         </section>
 
-        <section id="blog">
+        <section id="blog" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Blog</h2>
             <p>Stay updated with our latest news, articles, and insights from our community and beyond...</p>
         </section>
 
-        <section id="sermons">
+        <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Sermons</h2>
             <p>Watch our latest sermons and teachings from our pastors and guest speakers...</p>
             <div class="sermon-videos">
@@ -139,7 +139,7 @@
             </div>
         </section>
 
-        <section id="music">
+        <section id="music" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Music</h2>
             <p>Enjoy our worship music and choir performances. Listen to our latest songs and albums...</p>
             <div class="youtube-videos">
@@ -148,7 +148,7 @@
             </div>
         </section>
 
-        <section id="give">
+        <section id="give" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Give</h2>
             <p>Support our church by giving online through various donation options...</p>
 
