@@ -1,136 +1,116 @@
-/* Basic resets and global styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* Add the following to your existing styles.css file */
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header and Navigation */
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
+nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #333;
 }
 
-header nav ul li {
-    margin: 0 10px;
+nav ul li {
+    margin: 0;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-header nav ul li a:hover {
-    color: #ddd;
+nav ul li a:hover {
+    background: #555;
 }
 
-/* Main content */
-main {
-    padding: 20px;
-}
-
-/* Hero section */
 .hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
 }
 
 .hero-content {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Improved text readability */
     padding: 20px;
     border-radius: 10px;
-}
-
-.logo {
-    max-width: 150px;
-    margin-bottom: 10px;
-}
-
-/* Section styling */
-section {
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-    background: #f4f4f4;
 }
 
 .service-times {
-    background: #e0f7fa;
+    text-align: center;
+    margin: 20px;
 }
 
 .service-time-container {
     display: flex;
-    justify-content: space-around;
-}
-
-.service-time {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Video sections */
-.sermon-videos, .youtube-videos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
+    gap: 20px;
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
+.service-time i {
+    font-size: 2rem;
 }
 
-footer .social-links {
-    margin: 10px 0;
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 
-footer .social-links a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
+form label {
+    display: block;
+    margin: 10px 0 5px;
 }
 
-footer .social-links a:hover {
-    color: #ddd;
-}
-
-/* Back to top button */
-#back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
+form input,
+form select,
+form button {
+    width: 100%;
     padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
     cursor: pointer;
 }
 
-#back-to-top:hover {
-    background: #555;
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ddd;
 }
