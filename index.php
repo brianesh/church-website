@@ -50,6 +50,30 @@
         #back-to-top i {
             font-size: 20px;
         }
+        /* Common background properties for all sections */
+        section {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            min-height: 600px; /* Adjust as needed */
+        }
+
+        section h2, section h3 {
+            background-color: rgba(0, 0, 0, 0.5); /* To improve text readability */
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        section p {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -80,7 +104,7 @@
             </div>
         </section>
 
-        <section class="service-times">
+        <section class="service-times" style="background-image: url('https://images.unsplash.com/photo-1534137667199-675a46e143f3');">
             <h3>SERVICE TIMES</h3>
             <div class="service-time-container">
                 <div class="service-time">
@@ -99,17 +123,17 @@
             <p>Welcome to A.C.K Kihunguro Parish. We are a community of believers committed to growing in faith, serving others, and making a difference in the world...</p>
         </section>
 
-        <section id="connect" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="connect" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
             <h2>Connect</h2>
             <p>Connect with our community through various programs and events. Join us for fellowship, support groups, and more...</p>
         </section>
 
-        <section id="grow" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="grow" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Grow</h2>
             <p>Join our Bible study groups, attend workshops, and participate in activities designed to help you grow in your faith...</p>
         </section>
 
-        <section id="serve" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="serve" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
             <h2>Serve</h2>
             <p>Discover opportunities to serve within our community and beyond. We offer various programs where you can contribute your skills and time...</p>
         </section>
@@ -119,7 +143,7 @@
             <p>Learn about our different networks and how you can become involved in various outreach and support initiatives...</p>
         </section>
 
-        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1494232410401-ad00d5433cfa');">
             <h2>Missions</h2>
             <p>Explore our mission efforts and outreach programs designed to make a positive impact locally and globally...</p>
         </section>
@@ -129,7 +153,7 @@
             <p>Stay updated with our latest news, articles, and insights from our community and beyond...</p>
         </section>
 
-        <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Sermons</h2>
             <p>Watch our latest sermons and teachings from our pastors and guest speakers...</p>
             <div class="sermon-videos">
@@ -139,7 +163,7 @@
             </div>
         </section>
 
-        <section id="music" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="music" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Music</h2>
             <p>Enjoy our worship music and choir performances. Listen to our latest songs and albums...</p>
             <div class="youtube-videos">
@@ -150,8 +174,11 @@
 
         <section id="give" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
             <h2>Give</h2>
-            <p>Support our church by giving online through various donation options...</p>
-
+            <p>Your generosity helps us continue our mission and outreach. Learn how you can support A.C.K Kihunguro Parish through donations, tithes, and offerings...</p>
+            <div class="donation-options">
+                <h3>M-Pesa</h3>
+                <p>Paybill: 123456<br>Account: YourName</p>
+            </div>
             <form action="process_donation.php" method="post">
                 <h3>Pay via M-Pesa</h3>
                 <label for="amount">Amount:</label>
@@ -192,7 +219,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 A.C.K Kihunguro Parish. All rights reserved.</p>
+        <p>&copy; 2024 A.C.K Kihunguro Parish. All Rights Reserved.</p>
         <div class="social-links">
             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
@@ -200,21 +227,25 @@
         </div>
     </footer>
 
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <button id="back-to-top" onclick="scrollToTop()">
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/scripts.js"></script>
     <script>
-        // Show or hide the back-to-top button based on scroll position
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 100) {
-                $('#back-to-top').fadeIn();
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = 'block';
             } else {
-                $('#back-to-top').fadeOut();
+                backToTopButton.style.display = 'none';
             }
-        });
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     </script>
 </body>
 </html>
+

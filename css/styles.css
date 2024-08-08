@@ -114,3 +114,28 @@ footer {
 .social-links a:hover {
     color: #ddd;
 }
+
+/* Common background properties for all sections */
+section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 600px; /* Adjust as needed */
+}
+
+section h2, section h3 {
+    background-color: rgba(0, 0, 0, 0.5); /* To improve text readability */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+section p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
