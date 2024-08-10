@@ -7,74 +7,6 @@
     <title>A.C.K Kihunguro Parish</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Example of sticky navigation */
-        nav {
-            position: sticky;
-            top: 0;
-            background: white;
-            z-index: 1000;
-        }
-        /* Example of a smooth scrolling effect */
-        html {
-            scroll-behavior: smooth;
-        }
-        .hero {
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            color: white;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .hero-content {
-            background: rgba(0, 0, 0, 0.5); /* Improved text readability */
-            padding: 20px;
-            border-radius: 10px;
-        }
-        #back-to-top {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #000;
-            color: #fff;
-            border: none;
-            padding: 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            z-index: 1000;
-        }
-        #back-to-top i {
-            font-size: 20px;
-        }
-        /* Common background properties for all sections */
-        section {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-            min-height: 600px; /* Adjust as needed */
-        }
-
-        section h2, section h3 {
-            background-color: rgba(0, 0, 0, 0.5); /* To improve text readability */
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
-
-        section p {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 15px;
-            border-radius: 10px;
-            display: inline-block;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -138,47 +70,42 @@
             <p>Discover opportunities to serve within our community and beyond. We offer various programs where you can contribute your skills and time...</p>
         </section>
 
-        <section id="networks" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="networks" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
             <h2>Networks</h2>
-            <p>Learn about our different networks and how you can become involved in various outreach and support initiatives...</p>
+            <p>Join our network of believers, share experiences, and grow together in faith. We believe in the power of community...</p>
         </section>
 
-        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1494232410401-ad00d5433cfa');">
+        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
             <h2>Missions</h2>
-            <p>Explore our mission efforts and outreach programs designed to make a positive impact locally and globally...</p>
+            <p>We are actively involved in missions locally and internationally. Learn more about our mission work and how you can get involved...</p>
         </section>
 
-        <section id="blog" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="blog" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
             <h2>Blog</h2>
-            <p>Stay updated with our latest news, articles, and insights from our community and beyond...</p>
+            <p>Read our latest blog posts on faith, community, and living a Christian life. Stay informed and inspired by our dedicated writers...</p>
         </section>
 
         <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Sermons</h2>
-            <p>Watch our latest sermons and teachings from our pastors and guest speakers...</p>
+            <p>Watch our latest sermons online. Stay connected with our teachings even when you can't be with us in person...</p>
             <div class="sermon-videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
-        <section id="music" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
+        <section id="music" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
             <h2>Music</h2>
-            <p>Enjoy our worship music and choir performances. Listen to our latest songs and albums...</p>
+            <p>Enjoy uplifting and inspiring music from our choir and guest artists. Watch videos and listen to our latest tracks...</p>
             <div class="youtube-videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
-        <section id="give" style="background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');">
+        <section id="give" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
             <h2>Give</h2>
-            <p>Your generosity helps us continue our mission and outreach. Learn how you can support A.C.K Kihunguro Parish through donations, tithes, and offerings...</p>
-            <div class="donation-options">
-                <h3>M-Pesa</h3>
-                <p>Paybill: 123456<br>Account: YourName</p>
-            </div>
+            <p>Your generosity helps us continue our mission and serve our community. Donate through M-Pesa or other methods...</p>
             <form action="process_donation.php" method="post">
                 <h3>Pay via M-Pesa</h3>
                 <label for="amount">Amount:</label>
@@ -219,33 +146,17 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 A.C.K Kihunguro Parish. All Rights Reserved.</p>
         <div class="social-links">
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
+        <p>&copy; 2024 A.C.K Kihunguro Parish. All Rights Reserved.</p>
     </footer>
 
-    <button id="back-to-top" onclick="scrollToTop()">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+    <button id="back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
 
-    <script>
-        // Back to top button functionality
-        const backToTopButton = document.getElementById('back-to-top');
-        window.onscroll = function () {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                backToTopButton.style.display = 'block';
-            } else {
-                backToTopButton.style.display = 'none';
-            }
-        };
-
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
-
