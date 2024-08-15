@@ -265,3 +265,36 @@ footer {
 .resources a:hover {
     text-decoration: underline;
 }
+
+#serve {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#serve h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.volunteer, .outreach {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.volunteer h3, .outreach h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.volunteer a, .outreach a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.volunteer a:hover, .outreach a:hover {
+    text-decoration: underline;
+}
