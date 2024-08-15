@@ -298,3 +298,47 @@ footer {
 .volunteer a:hover, .outreach a:hover {
     text-decoration: underline;
 }
+
+#networks {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#networks h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.networks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.network {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.network h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.join {
+    margin-top: 30px;
+}
+
+.join a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.join a:hover {
+    text-decoration: underline;
+}
