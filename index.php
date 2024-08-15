@@ -99,10 +99,31 @@
 </section>
 
 
-        <section id="grow" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
-            <h2>Grow</h2>
-            <p>Join our Bible study groups, attend workshops, and participate in activities designed to help you grow in your faith...</p>
-        </section>
+<section id="grow">
+    <h2>Grow in Faith</h2>
+    <p>We offer various opportunities for spiritual growth and learning. Explore our Bible studies, workshops, and resources to deepen your faith.</p>
+
+    <div class="bible-studies">
+        <div class="study">
+            <h3>Weekly Bible Studies</h3>
+            <p>Join our weekly Bible studies to explore Scripture in a supportive group setting.</p>
+            <a href="#signup" class="btn">Join a Study</a>
+        </div>
+        <div class="study">
+            <h3>Workshops and Seminars</h3>
+            <p>Participate in our workshops and seminars to enhance your spiritual journey.</p>
+            <a href="#register" class="btn">Register Now</a>
+        </div>
+        <!-- Add more studies as needed -->
+    </div>
+
+    <div class="resources">
+        <h3>Spiritual Resources</h3>
+        <p>Access a variety of resources to aid your spiritual growth, including devotionals, reading plans, and recommended books.</p>
+        <a href="#resources" class="btn">Explore Resources</a>
+    </div>
+</section>
+
 
         <section id="serve" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
             <h2>Serve</h2>
