@@ -125,10 +125,23 @@
 </section>
 
 
-        <section id="serve" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
-            <h2>Serve</h2>
-            <p>Discover opportunities to serve within our community and beyond. We offer various programs where you can contribute your skills and time...</p>
-        </section>
+<section id="serve">
+    <h2>Serve with Us</h2>
+    <p>We believe in serving others as an expression of our faith. Find out how you can get involved and make a difference.</p>
+
+    <div class="volunteer">
+        <h3>Volunteer Opportunities</h3>
+        <p>We have various volunteer opportunities available. Whether you can offer your time, skills, or resources, we welcome your involvement.</p>
+        <a href="#volunteer" class="btn">View Opportunities</a>
+    </div>
+
+    <div class="outreach">
+        <h3>Community Outreach</h3>
+        <p>Our outreach programs aim to support those in need and make a positive impact in our community. Learn more about our initiatives and how you can contribute.</p>
+        <a href="#outreach" class="btn">Learn More</a>
+    </div>
+</section>
+
 
         <section id="networks" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
             <h2>Networks</h2>
