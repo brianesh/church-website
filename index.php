@@ -186,10 +186,23 @@
     </div>
 </section>
 
-        <section id="blog" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
-            <h2>Blog</h2>
-            <p>Read our latest blog posts on faith, community, and living a Christian life. Stay informed and inspired by our dedicated writers...</p>
-        </section>
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Stay updated with the latest news, reflections, and articles from our church community. Check out our recent posts and explore various topics.</p>
+
+    <div class="blog-posts">
+        <article class="post">
+            <h3><a href="#post1">Understanding Our Faith: A Journey</a></h3>
+            <p>Explore the depths of our faith through insightful articles and reflections.</p>
+        </article>
+        <article class="post">
+            <h3><a href="#post2">Upcoming Events You Don't Want to Miss</a></h3>
+            <p>Stay informed about the exciting events and activities happening in our church.</p>
+        </article>
+        <!-- Add more blog posts as needed -->
+    </div>
+</section>
+
 
         <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Sermons</h2>
