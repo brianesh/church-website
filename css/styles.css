@@ -221,3 +221,47 @@ footer {
 .contact a:hover {
     text-decoration: underline;
 }
+
+#grow {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#grow h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.bible-studies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.study {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.study h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.resources {
+    margin-top: 30px;
+}
+
+.resources a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.resources a:hover {
+    text-decoration: underline;
+}
