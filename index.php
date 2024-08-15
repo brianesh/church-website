@@ -169,10 +169,22 @@
 </section>
 
 
-        <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
-            <h2>Missions</h2>
-            <p>We are actively involved in missions locally and internationally. Learn more about our mission work and how you can get involved...</p>
-        </section>
+<section id="missions">
+    <h2>Missions</h2>
+    <p>We are committed to both local and global missions that reflect our faith and desire to make a difference in the world. Learn more about our mission activities and how you can get involved.</p>
+
+    <div class="local-missions">
+        <h3>Local Missions</h3>
+        <p>Our local missions include various programs aimed at supporting our community and addressing local needs.</p>
+        <a href="#local-missions" class="btn">Discover Local Missions</a>
+    </div>
+
+    <div class="global-missions">
+        <h3>Global Missions</h3>
+        <p>We support global missions to reach out to communities worldwide, partnering with international organizations.</p>
+        <a href="#global-missions" class="btn">Explore Global Missions</a>
+    </div>
+</section>
 
         <section id="blog" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
             <h2>Blog</h2>
