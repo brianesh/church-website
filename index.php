@@ -69,10 +69,35 @@
 </section>
 
 
-        <section id="connect" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
-            <h2>Connect</h2>
-            <p>Connect with our community through various programs and events. Join us for fellowship, support groups, and more...</p>
-        </section>
+<section id="connect">
+    <h2>Connect with Us</h2>
+    <p>At A.C.K Kihunguro Parish, we believe in building meaningful connections within our community. Join one of our groups or programs to get involved and grow in your faith.</p>
+
+    <div class="programs">
+        <div class="program">
+            <h3>Bible Study Groups</h3>
+            <p>Join one of our weekly Bible study groups to deepen your understanding of Scripture and connect with others.</p>
+            <a href="#signup" class="btn">Join a Group</a>
+        </div>
+        <div class="program">
+            <h3>Community Outreach</h3>
+            <p>Participate in our outreach programs to support local and global missions.</p>
+            <a href="#volunteer" class="btn">Get Involved</a>
+        </div>
+        <!-- Add more programs as needed -->
+    </div>
+
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+        <ul>
+            <li>Email: <a href="mailto:info@ackkihunguro.org">info@ackkihunguro.org</a></li>
+            <li>Phone: <a href="tel:+254123456789">+254 123 456 789</a></li>
+            <li>Address: 123 Church Road, Kihunguro</li>
+        </ul>
+    </div>
+</section>
+
 
         <section id="grow" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
             <h2>Grow</h2>
