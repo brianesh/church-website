@@ -375,3 +375,43 @@ footer {
 .local-missions a:hover, .global-missions a:hover {
     text-decoration: underline;
 }
+
+#blog {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.post a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
