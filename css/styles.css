@@ -342,3 +342,36 @@ footer {
 .join a:hover {
     text-decoration: underline;
 }
+
+#missions {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#missions h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.local-missions, .global-missions {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.local-missions h3, .global-missions h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.local-missions a, .global-missions a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.local-missions a:hover, .global-missions a:hover {
+    text-decoration: underline;
+}
