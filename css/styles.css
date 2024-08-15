@@ -168,3 +168,56 @@ footer {
 #back-to-top i {
     font-size: 1.5rem;
 }
+
+#connect {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#connect h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.program {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.program h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
