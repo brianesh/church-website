@@ -204,14 +204,29 @@
 </section>
 
 
-        <section id="sermons" style="background-image: url('https://images.unsplash.com/photo-1517260739337-6ef34120f0d1');">
-            <h2>Sermons</h2>
-            <p>Watch our latest sermons online. Stay connected with our teachings even when you can't be with us in person...</p>
-            <div class="sermon-videos">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
+<section id="sermons">
+    <h2>Sermons</h2>
+    <p>Access our sermon archive and stay up-to-date with upcoming sermon series. Listen to or read the latest messages from our pastors.</p>
+
+    <div class="sermon-archive">
+        <article class="sermon">
+            <h3><a href="#sermon1">The Power of Faith</a></h3>
+            <p>A deep dive into the power of faith in our daily lives.</p>
+        </article>
+        <article class="sermon">
+            <h3><a href="#sermon2">Building Strong Foundations</a></h3>
+            <p>Understanding the importance of a strong spiritual foundation.</p>
+        </article>
+        <!-- Add more sermons as needed -->
+    </div>
+
+    <div class="upcoming-sermons">
+        <h3>Upcoming Sermons</h3>
+        <p>Get a glimpse of what's coming up in our sermon series and mark your calendar.</p>
+        <a href="#schedule" class="btn">View Schedule</a>
+    </div>
+</section>
+
 
         <section id="music" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
             <h2>Music</h2>
