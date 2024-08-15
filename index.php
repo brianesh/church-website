@@ -53,9 +53,21 @@
         </section>
 
         <section id="about">
-            <h2>About Us</h2>
-            <p>Welcome to A.C.K Kihunguro Parish. We are a community of believers committed to growing in faith, serving others, and making a difference in the world...</p>
-        </section>
+    <h2>About Us</h2>
+    <p>At A.C.K Kihunguro Parish, our mission is to live out the teachings of Christ by fostering a community of faith, hope, and love. We are dedicated to serving our members and the greater community through outreach, spiritual growth, and support.</p>
+    <h3>Our History</h3>
+    <p>Founded in 1980, A.C.K Kihunguro Parish has grown from a small gathering of believers to a vibrant and active community. Over the years, we have been involved in numerous outreach programs and community services.</p>
+    <h3>Meet Our Leadership</h3>
+    <div class="leaders">
+        <div class="leader">
+            <img src="includes/pastor.jpg" alt="Pastor John Doe">
+            <h4>Pastor John Doe</h4>
+            <p>Senior Pastor</p>
+        </div>
+        <!-- Add more leaders as needed -->
+    </div>
+</section>
+
 
         <section id="connect" style="background-image: url('https://images.unsplash.com/photo-1477768663690-7f0d40b729b6');">
             <h2>Connect</h2>
