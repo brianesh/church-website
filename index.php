@@ -143,10 +143,31 @@
 </section>
 
 
-        <section id="networks" style="background-image: url('https://images.unsplash.com/photo-1520376351808-54a07bf175d5');">
-            <h2>Networks</h2>
-            <p>Join our network of believers, share experiences, and grow together in faith. We believe in the power of community...</p>
-        </section>
+<section id="networks">
+    <h2>Our Networks</h2>
+    <p>We are part of several networks and partnerships that help us extend our reach and impact. Discover our connections and how they contribute to our mission.</p>
+
+    <div class="networks-list">
+        <div class="network">
+            <h3>Local Community Groups</h3>
+            <p>We partner with local community groups to provide support and services. Find out more about our local partnerships.</p>
+            <a href="#local" class="btn">Learn More</a>
+        </div>
+        <div class="network">
+            <h3>Global Missions</h3>
+            <p>Our global missions involve collaborating with international organizations to address global needs. Learn about our international partnerships.</p>
+            <a href="#global" class="btn">Explore Missions</a>
+        </div>
+        <!-- Add more networks as needed -->
+    </div>
+
+    <div class="join">
+        <h3>Join Our Networks</h3>
+        <p>Interested in becoming part of our networks? Get in touch with us to learn how you can join and contribute.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </div>
+</section>
+
 
         <section id="missions" style="background-image: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d');">
             <h2>Missions</h2>
