@@ -28,13 +28,15 @@
     </header>
 
     <main>
-        <section id="home" class="hero" style="background-image: url('includes/background.jpeg');">
-            <div class="hero-content">
-                <img src="includes/bg2.jpeg" alt="A.C.K Kihunguro Church Logo" class="logo">
-                <h1>A.C.K Kihunguro Church</h1>
-                <h2>Welcome Home</h2>
-            </div>
-        </section>
+    <section id="home" class="hero" style="background-image: url('includes/background.jpeg');">
+    <div class="hero-content">
+        <img src="includes/bg2.jpeg" alt="A.C.K Kihunguro Church Logo" class="logo">
+        <h1>Welcome to A.C.K Kihunguro Church</h1>
+        <p>Your spiritual home and community. Join us for worship, fellowship, and growth.</p>
+        <p>Upcoming Event: <strong>Community Picnic</strong> - August 20th at 10:00 AM</p>
+    </div>
+</section>
+
 
         <section class="service-times" style="background-image: url('https://images.unsplash.com/photo-1534137667199-675a46e143f3');">
             <h3>SERVICE TIMES</h3>
