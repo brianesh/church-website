@@ -84,7 +84,6 @@
             <p>Participate in our outreach programs to support local and global missions.</p>
             <a href="#volunteer" class="btn">Get Involved</a>
         </div>
-        <!-- Add more programs as needed -->
     </div>
 
     <div class="contact">
