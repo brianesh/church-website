@@ -216,7 +216,7 @@
             <h3><a href="#sermon2">Building Strong Foundations</a></h3>
             <p>Understanding the importance of a strong spiritual foundation.</p>
         </article>
-        <!-- Add more sermons as needed -->
+       
     </div>
 
     <div class="upcoming-sermons">
