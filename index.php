@@ -64,7 +64,7 @@
             <h4>Pastor John Doe</h4>
             <p>Senior Pastor</p>
         </div>
-        <!-- Add more leaders as needed -->
+        
     </div>
 </section>
 

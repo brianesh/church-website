@@ -415,3 +415,47 @@ footer {
 .post a:hover {
     text-decoration: underline;
 }
+
+#sermons {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#sermons h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.sermon-archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sermon {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sermon h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.upcoming-sermons {
+    margin-top: 30px;
+}
+
+.upcoming-sermons a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.upcoming-sermons a:hover {
+    text-decoration: underline;
+}
