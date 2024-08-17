@@ -198,7 +198,7 @@
             <h3><a href="#post2">Upcoming Events You Don't Want to Miss</a></h3>
             <p>Stay informed about the exciting events and activities happening in our church.</p>
         </article>
-        <!-- Add more blog posts as needed -->
+        
     </div>
 </section>
 
