@@ -113,7 +113,7 @@
             <p>Participate in our workshops and seminars to enhance your spiritual journey.</p>
             <a href="#register" class="btn">Register Now</a>
         </div>
-        <!-- Add more studies as needed -->
+        
     </div>
 
     <div class="resources">
