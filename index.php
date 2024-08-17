@@ -157,7 +157,7 @@
             <p>Our global missions involve collaborating with international organizations to address global needs. Learn about our international partnerships.</p>
             <a href="#global" class="btn">Explore Missions</a>
         </div>
-        <!-- Add more networks as needed -->
+       
     </div>
 
     <div class="join">
