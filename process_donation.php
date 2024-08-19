@@ -18,7 +18,6 @@ if ($mysqli->connect_error) {
 
 // Ensure the form was submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data
     $amount = filter_input(INPUT_POST, 'amount', FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
     $donation_type = filter_input(INPUT_POST, 'donation_type', FILTER_SANITIZE_STRING);
     $donor_name = filter_input(INPUT_POST, 'donor_name', FILTER_SANITIZE_STRING);
