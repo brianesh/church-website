@@ -9,7 +9,6 @@ $db = 'church';
 $user = 'root'; 
 $pass = 'password'; 
 
-// Create a connection to the database
 $mysqli = new mysqli($host, $user, $pass, $db);
 
 // Check connection
