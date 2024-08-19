@@ -7,7 +7,7 @@ ini_set('display_errors', 1);
 $host = 'localhost'; // or your database host
 $db = 'church'; // your database name
 $user = 'root'; // your database user
-$pass = 'password'; // your database password
+$pass = 'password'; 
 
 // Create a connection to the database
 $mysqli = new mysqli($host, $user, $pass, $db);
