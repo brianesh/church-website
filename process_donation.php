@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $donor_email = filter_input(INPUT_POST, 'donor_email', FILTER_SANITIZE_EMAIL);
     $donor_phone_number = filter_input(INPUT_POST, 'donor_phone_number', FILTER_SANITIZE_STRING);
 
-    // Validate input
+    
     if (empty($amount) || $amount <= 0) {
         echo "Please enter a valid amount.";
         exit;
@@ -46,7 +46,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute the statement
     if ($stmt->execute()) {
-        // Redirect to a thank-you page or show a success message
         header("Location: thank_you.php");
         exit;
     } else {
