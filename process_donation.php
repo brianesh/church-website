@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 // Database configuration
 $host = 'localhost'; // or your database host
-$db = 'church'; // your database name
+$db = 'church'; 
 $user = 'root'; 
 $pass = 'password'; 
 
