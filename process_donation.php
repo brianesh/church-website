@@ -11,12 +11,12 @@ $pass = 'password';
 
 $mysqli = new mysqli($host, $user, $pass, $db);
 
-// Check connection
+
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }
 
-// Ensure the form was submitted
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $amount = filter_input(INPUT_POST, 'amount', FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
     $donation_type = filter_input(INPUT_POST, 'donation_type', FILTER_SANITIZE_STRING);
