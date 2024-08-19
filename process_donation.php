@@ -40,11 +40,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    // Prepare and bind
+    
     $stmt = $mysqli->prepare("INSERT INTO donations (amount, donation_type, donor_name, donor_email, donor_phone_number) VALUES (?, ?, ?, ?, ?)");
     $stmt->bind_param("dssss", $amount, $donation_type, $donor_name, $donor_email, $donor_phone_number);
 
-    // Execute the statement
+   
     if ($stmt->execute()) {
         header("Location: thank_you.php");
         exit;
